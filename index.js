@@ -54,4 +54,4 @@ I'm Yong Hu, a web3 lovers.
 \
 `;
 
-// console.log(readme);
+console.log(readme);
