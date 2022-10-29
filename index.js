@@ -11,6 +11,8 @@ function generateProgressBar() {
 	return `{ ${progressBar} }`;
 }
 
+const timeStamp = new Date().getTime();
+
 const readme = `\
 ### Hi there 👋
 
@@ -18,7 +20,7 @@ const readme = `\
 
 ---
 
-⏰ Updated on ${new Date().toUTCString()}
+⏰ Updated on ${new Date(parseInt(timeStamp)).toLocaleString().replace(/年|月/g, "-").replace(/日/g, " ")}
 
 ---
 ### My GitHub Contributions    
@@ -34,9 +36,9 @@ I'm Yong Hu, a web3 lovers.
 
 - 🔭 I’m currently striving for a better life in beijing.     
 - 🤔 My blog 👉 https://imyoyo.xyz/         
-- 📃 My cv 👉 https://imyoyo.xyz/         
+- 📃 My cv 👉 https://cv.imyoyo.xyz/         
 - 📫 My E-mail: 2385410383@qq.com          
 \
 `;
 
-console.log(readme);
+// console.log(readme);
