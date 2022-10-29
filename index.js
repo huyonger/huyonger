@@ -11,7 +11,20 @@ function generateProgressBar() {
 	return `{ ${progressBar} }`;
 }
 
-const timeStamp = new Date().getTime();
+function getZoneTime(offset) {
+	// 取本地时间
+	var localtime = new Date();
+	// 取本地毫秒数
+	var localmesc = localtime.getTime();
+	// 取本地时区与格林尼治所在时区的偏差毫秒数
+	var localOffset = localtime.getTimezoneOffset() * 60000;
+	// 反推得到格林尼治时间
+	var utc = localOffset + localmesc;
+	// 得到指定时区时间
+	var calctime = utc + 3600000 * offset;
+	var nd = new Date(calctime);
+	return nd.toDateString() + " " + nd.getHours() + ":" + nd.getMinutes() + ":" + nd.getSeconds();
+}
 
 const readme = `\
 ### Hi there 👋
@@ -20,7 +33,7 @@ const readme = `\
 
 ---
 
-⏰ Updated on ${new Date(parseInt(timeStamp)).toLocaleString().replace(/年|月/g, "-").replace(/日/g, " ")}
+⏰ Updated on ${getZoneTime(8)}
 
 ---
 ### My GitHub Contributions    
