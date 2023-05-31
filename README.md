@@ -1,10 +1,10 @@
 ### Hi there 👋
 
-⏳ Year progress { ████████████▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁ } 41.12 %
+⏳ Year progress { ████████████▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁ } 41.13 %
 
 ---
 
-⏰ Updated on Wed May 31 2023 10:23:1
+⏰ Updated on Wed May 31 2023 11:13:26
 
 ---
 ### My GitHub Contributions    
@@ -21,5 +21,5 @@ I'm Yong Hu, a web3 lovers.
 - 🔭 I’m currently striving for a better life in beijing.     
 - 🤔 My blog 👉 https://imyoyo.xyz/         
 - 📃 My cv 👉 https://cv.imyoyo.xyz/         
-- 📫 My E-mail:           
+- 📫 My E-mail: 2385410383@qq.com          
 
