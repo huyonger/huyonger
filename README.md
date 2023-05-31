@@ -21,5 +21,5 @@ I'm Yong Hu, a web3 lovers.
 - 🔭 I’m currently striving for a better life in beijing.     
 - 🤔 My blog 👉 https://imyoyo.xyz/         
 - 📃 My cv 👉 https://cv.imyoyo.xyz/         
-- 📫 My E-mail: 2385410383@qq.com          
+- 📫 My E-mail: huyong@bupt.edu.cn          
 
